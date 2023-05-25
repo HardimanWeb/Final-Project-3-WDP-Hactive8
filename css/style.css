@@ -5,14 +5,19 @@
   font-family: "Basic", sans-serif;
 }
 
-.nav-atas > a {
+.nav-atas  a {
   color: black;
   padding-right: 20px;
   margin-right: 20px;
 }
-
-.nav-atas > a > .nav-active {
+.logo svg{
+  top: 0;
+ position: absolute;
+ /* height: 88px; */
+}
+.nav-atas  .nav-active {
   border-radius: 0px;
+  color: #ffffff;
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
 }
 
@@ -22,9 +27,44 @@
 
 .but-pg1 {
   margin-left: 3px;
+  margin-top: 10px;
   padding: 10px 35px 10px 35px;
   border: none;
   font-size: 14px;
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: white;
+}
+.banner{
+  width: 100%;
+}
+
+header .container-list{
+width: 100%;
+}
+
+@media (max-width: 1000px) {
+ nav button{
+   margin: 20px;
+  }
+ .banner img{
+  width: 100%;
+  margin-bottom: -20px;
+ }
+ .banner{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+ .display-2 p{
+  display:inline;
+ }
+ .nav-atas  a,header ul li{
+  margin: 0 auto;
+  width: 100%;
+ }
+ .nav-atas  a{
+  margin-bottom: 5px;
+ }
+ .container-list .list{
+  width: 100%;
+ }
 }
