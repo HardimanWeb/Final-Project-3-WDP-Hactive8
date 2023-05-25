@@ -144,7 +144,7 @@ color: #ffffff;
     line-height: 80px;
   }
 
-/* About css start */
+/* About css start ============================*/
 #about .content-title h1{
   font-size: 40px;
   font-weight: 400;
@@ -167,9 +167,10 @@ color: #ffffff;
   background-size:contain;
   padding: 50px;
 }
-/* end about css */
+}
+/* end about css =========================================*/
 
-/* start Service css */
+/* start Service css  ================================================================================*/
 .service {
   margin-bottom: -300px;
 }
@@ -215,7 +216,6 @@ font-weight: 100;
   position:absolute;
   right: -95px;
 }
-/* service css end */
 
 
 @media (max-width: 500px) {
@@ -243,3 +243,196 @@ font-weight: 100;
     padding: 0 20px;
    }
 }
+/* service css end ======================================================================== */
+
+/* work css start ============================================================================ */
+.work {
+  background: #020E35;
+  width: 100%;
+}
+
+.title {
+  padding-top: 300px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.work .line{
+  width: 90px;
+  border-bottom: 1px solid #E73587;
+  margin: 0 auto;
+}
+.work .kotak1 {
+  position: relative;
+  width: 587px;
+  height: 390px;
+  background: #F09532;
+  margin: 80px 70px;
+}
+
+.work .kotak2 {
+  position: relative;
+  width: 587px;
+  height: 390px;
+  background: #8C32F0;
+  margin: 0px 640px;
+}
+
+.work .kotak3 {
+  position: relative;
+  width: 587px;
+  height: 390px;
+  background: #E73587;
+  margin: 50px 60px;
+}
+
+.work .kotak4 {
+  position: relative;
+  width: 587px;
+  height: 390px;
+  background: #32D6F0;
+  margin: 0px 640px;
+}
+
+.work .image1 {
+  position: relative;
+  width: 433px;
+  height: 390px;
+  margin: 0 50px;
+}
+
+.work .image2 {
+  position: relative;
+  width: 433px;
+  height: 390px;
+  margin: 0 80px;
+}
+
+.work .image3 {
+  position: relative;
+  width: 587px;
+  height: 324.6px;
+  margin: 50px 0px;
+}
+
+.work .image4 {
+  position: relative;
+  width: 587px;
+  height: 324.6px;
+  margin: 50px 0px;
+}
+
+.brand {
+  position: absolute;
+  width: 492px;
+  height: 80px;
+  left: 610px;
+  top: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.brand1 {
+  position: absolute;
+  width: 492px;
+  height: 80px;
+  right: 615px;
+  top: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: right;
+}
+
+.work .input {
+  color: white;
+  position: absolute;
+  width: 600px;
+  left: 610px;
+  top: 50px;
+  letter-spacing: 3px;
+}
+
+.work .input1 {
+  color: white;
+  position: absolute;
+  width: 600px;
+  right: 350px;
+  top: 50px;
+  letter-spacing: 3px;
+}
+.container-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.work .p {
+  color: white;
+  position: absolute;
+  width: 492px;
+  height: 80px;
+  left: 610px;
+  top: 110px;
+  line-height: 25px;
+}
+
+.work .p1 {
+  color: white;
+  position: absolute;
+  width: 492px;
+  height: 80px;
+  right: 610px;
+  top: 110px;
+  text-align: right;
+}
+
+.tombol {
+  border: none;
+  color: #ffffff;
+  position: relative;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  margin: 30px 600px;
+}
+
+@media only screen and (max-width: 1254px) {
+  .work {
+   padding: 20px;
+  }
+  .work .kotak1,
+  .work .kotak2,
+  .work .kotak3,
+  .work .kotak4 {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .work .image1,
+  .work .image2,
+  .work .image3,
+  .work .image4 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .brand,
+  .brand1,
+  .work .input,
+  .work .input1,
+  .work .p,
+  .work .p1 {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+  }
+}
+/* work css end =================================================================== */
