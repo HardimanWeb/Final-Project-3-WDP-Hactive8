@@ -408,42 +408,56 @@
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 mt-4">
-            <div class="right-content">
+            <form
+              class="right-content"
+              action="https://formspree.io/f/mayzzdgb"
+              method="POST"
+            >
               <div class="mb-3">
                 <label class="form-label">Your Email address</label>
                 <input
                   type="email"
+                  id="email"
+                  name="email"
                   class="form-control ps-3 py-2"
                   placeholder="something@website.com"
+                  required
                 />
               </div>
               <div class="mb-3">
                 <label class="form-label">Subject</label>
                 <input
-                  type="email"
+                  id="subject"
+                  name="subject"
                   class="form-control ps-3 py-2"
                   placeholder="Question about your article"
+                  required
                 />
               </div>
               <div class="mb-3">
                 <label class="form-label">Message</label>
                 <textarea
                   class="form-control ps-3"
+                  id="message"
+                  name="message"
                   rows="3"
                   placeholder="Your message starts with…"
+                  required
                 ></textarea>
               </div>
               <div class="mb-3">
-                <button class="form-control py-2">Send a Message</button>
+                <button class="form-control py-2" type="submit">
+                  Send a Message
+                </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
     <footer class="pt-1">
       <div class="container d-flex p-2">
-        <p class="m-0">2020 © All rights reserved by Your company name</p>
+        <p class="m-0">2023 © All rights reserved by Kelompok 1 WDP-Hactive8</p>
       </div>
     </footer>
     <!-- end-->

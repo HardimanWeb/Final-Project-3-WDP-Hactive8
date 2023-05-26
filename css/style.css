@@ -391,14 +391,13 @@ font-weight: 100;
 }
 
 .tombol {
-  border: none;
-  color: #ffffff;
   position: relative;
-  width: 140px;
-  height: 40px;
+  margin: 30px 0; 
+  padding: 10px 35px 10px 35px;
+  border: none;
   font-size: 14px;
-  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-  margin: 30px 600px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  color: white;
 }
 
 @media only screen and (max-width: 1254px) {
@@ -436,5 +435,9 @@ font-weight: 100;
     margin: 10px;
     text-align: center;
   }
+ .tombol{
+   margin: 10px 0;
+  }
+  
 }
 /* work css end =================================================================== */
